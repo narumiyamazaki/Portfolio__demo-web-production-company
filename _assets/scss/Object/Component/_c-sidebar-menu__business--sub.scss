@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+
+.c-sidebar-menu__business--sub{
+    @extend %c-sidebar-menu__concept--sub;
+}

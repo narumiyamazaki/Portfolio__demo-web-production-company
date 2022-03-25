@@ -1,0 +1,8 @@
+@use '../../Foundation/mixin';
+
+.p-section__contact__tel{
+    color:#0B5240;
+    @include mixin.mq(pc){
+        width:34%;
+    }
+}

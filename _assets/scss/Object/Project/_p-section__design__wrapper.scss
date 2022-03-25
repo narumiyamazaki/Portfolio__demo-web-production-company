@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-section__design__wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 auto;
+    @include mixin.mq(pc){
+        display: grid;
+        gap:30px;
+        grid-template-columns: repeat(3,1fr);
+    }
+}

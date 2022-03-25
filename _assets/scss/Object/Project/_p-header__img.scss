@@ -1,0 +1,24 @@
+@use '../../Foundation/mixin';
+
+.p-header__img{
+    background:url(../img/header-img.png) no-repeat;
+    background-size: cover;
+    width:100%;
+    padding-top: calc(650/375*100%);
+    max-height: 650px;
+    position:relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include mixin.mq(pc){
+        background:url(../img/header__pc.png) no-repeat;
+        background-size:cover;
+        //pc時レイアウトが崩れない高さ
+        height: 570px;
+        max-height: 768px;
+        padding-top:0;
+        align-items: flex-start;
+    }
+}

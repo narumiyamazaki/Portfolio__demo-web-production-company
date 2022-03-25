@@ -1,0 +1,8 @@
+@use '../../Foundation/mixin';
+
+.p-header__link{
+    display: none;
+    @include mixin.mq(pc){
+        display: block;
+    }
+}

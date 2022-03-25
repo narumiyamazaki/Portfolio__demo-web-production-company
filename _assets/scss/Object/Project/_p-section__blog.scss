@@ -1,0 +1,22 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/extend';
+
+.p-section__blog{
+    background-color: #0B5240;
+    padding:60px 0;
+    //アニメーションの設定
+    transition: transform 0.5s linear;
+    animation-duration: 1.5s;
+    opacity: 0;
+    &.effect{
+    //アニメーションのextend
+    @extend %fade-in-animation__bttom-to-top;
+    //
+    }
+    @include mixin.mq(pc){
+        display: flex;
+        padding:100px 0;
+        width:calc(1140/1366*100%);
+        margin:0 auto;
+    }
+}

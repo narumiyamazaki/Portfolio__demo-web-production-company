@@ -1,0 +1,24 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/extend';
+
+.p-section__design{
+    padding:60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:calc(335/375*100%);
+    margin:0 auto;
+    //アニメーションの設定
+    transition: transform 0.5s linear;
+    animation-duration: 1.5s;
+    opacity: 0;
+    &.effect{
+    //アニメーションのextend
+    @extend %fade-in-animation__bttom-to-top;
+    //
+    }
+    @include mixin.mq(pc){
+        padding:100px 0;
+    }
+}

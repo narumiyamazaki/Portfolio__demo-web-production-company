@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-section__contact__text{
+    font-family: noto-sans-cjk-jp,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    line-height: calc(36/22);
+    margin-top:30px;
+    @include mixin.mq(pc){
+        font-size:26px;
+        margin-top:42px;
+    }
+}

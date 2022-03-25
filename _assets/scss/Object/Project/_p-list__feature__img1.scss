@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-list__feature__img1{
+    background:url(../img/feature__img1.png) no-repeat;
+    background-size:cover;
+    height:170px;
+    margin-top:30px;
+    @include mixin.mq(pc){
+        height: 257px;
+        padding-right:calc(661/1366*100%);
+        background-size: contain;
+    }
+}

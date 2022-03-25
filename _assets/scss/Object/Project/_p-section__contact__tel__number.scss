@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-section__contact__tel__number{
+    font-family: 'Quicksand', sans-serif;
+    font-size:36px;
+    font-weight: bold;
+    line-height: calc(54/36);
+    @include mixin.mq(pc){
+        font-size:46px;
+        margin-left:calc(5/345*100%);
+    }
+}

@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+
+.p-header-menu__company{
+    @extend %p-header-menu__concept;
+}

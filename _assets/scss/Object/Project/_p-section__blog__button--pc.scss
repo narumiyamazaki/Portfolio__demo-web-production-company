@@ -1,0 +1,18 @@
+@use '../../Foundation/mixin';
+
+.p-section__blog__button--pc{
+    width:180px;
+    height:56px;
+    background:#DBCEA0;
+    font-family: noto-sans-cjk-jp,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    margin:30px auto 0;
+    display: block;
+    align-items: center;
+    display: none;
+    @include mixin.mq(pc){
+        display: block;
+    }
+}

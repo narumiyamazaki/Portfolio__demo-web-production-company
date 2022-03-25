@@ -1,0 +1,7 @@
+@use '../../Foundation/mixin';
+
+.u-br{
+    @include mixin.mq(pc){
+        display: none;
+    }
+}

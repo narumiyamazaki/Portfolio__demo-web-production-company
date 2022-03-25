@@ -1,0 +1,15 @@
+.p-sidebar__body{
+    position:relative;
+    //background-color: bisque;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    transform: translateY(-1000px); /* Topから250px移動した位置 サイドバーの幅で画面外に移動させている*/
+    transition: all .1s; /* 移動する速さ */
+}
+
+.p-sidebar__body.is-show{
+    transform: translateY(0); /* right0まで-250px移動 */
+    width: 100%;
+    margin:0 auto;
+}

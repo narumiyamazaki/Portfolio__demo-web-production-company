@@ -1,0 +1,7 @@
+@use '../../Foundation/mixin';
+
+.p-section__design__text{
+    @include mixin.mq(pc){
+        width: calc(750/1366*100%);
+    }
+}

@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+
+.p-list__feature__wrapper{
+    width:calc(335/375*100%);
+    margin-top:15px;
+    @include mixin.mq(pc){
+        display: flex;
+        width: 100%;
+    }
+}

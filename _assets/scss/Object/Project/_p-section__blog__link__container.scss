@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+
+.p-section__blog__link__container{
+    width:calc(295/335*100%);
+    background-color: #fff;
+    margin:0 auto;
+    padding:20px 0;
+    @include mixin.mq(pc){
+        width:calc(750/1140*100%);
+        //margin-right:calc(70/1140*100%);
+        //margin-left:0;
+    }
+}

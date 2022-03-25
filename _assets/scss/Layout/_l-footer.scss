@@ -1,0 +1,14 @@
+@use '../Foundation/mixin';
+
+.l-footer{
+    background-image: url(../img/footer__background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    background-color: #0B5240;
+    padding:60px 0;
+    text-align: center;
+    @include mixin.mq(pc){
+        padding:100px 0;
+    }
+}

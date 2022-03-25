@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-header__text__wrapper{
+   position: absolute;
+    top:calc(151/595*100%);
+    left:calc(20/375*100%);
+    @include mixin.mq(pc){
+        top:246px;
+    }
+    left:calc(113/1336*100%);
+}

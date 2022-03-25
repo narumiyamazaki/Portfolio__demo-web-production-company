@@ -1,0 +1,24 @@
+@use '../../Foundation/mixin';
+
+.p-header__news__wrapper{
+    width:calc(335/375*100%);
+    padding:20px;
+    margin:-47px auto 0;
+    position:relative;
+    z-index: 1;
+    background-color: #fff;
+    white-space: nowrap;
+    transition: transform 0.5s linear;
+    animation-duration: 1.5s;
+    visibility: hidden;
+    &.effect{
+        transition: .8s;
+        animation-name: fade-in__bottom-to-top;
+        visibility: visible;
+        animation-fill-mode: forwards;
+    }
+    @include mixin.mq(pc){
+        width: calc(750/1366*100%);
+        margin-left: calc(113/1366*100%);
+    }
+}

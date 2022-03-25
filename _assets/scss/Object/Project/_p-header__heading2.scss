@@ -1,0 +1,21 @@
+@use '../../Foundation/mixin';
+
+.p-header__heading2{
+    font-family: noto-sans-cjk-jp,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    line-height: calc(54/36);
+    color:#fff;
+    //ビューポートに入る前は透明にしておく
+    transition: transform 0.5s linear;
+    animation-duration: 2.5s;
+    visibility: hidden;
+    //ビューポートに入った時の処理
+    &.effect{
+        transition: .8s;
+        animation-name: fade-in__left-to-right;
+        visibility: visible;
+        animation-fill-mode: forwards;
+    }
+}

@@ -1,0 +1,13 @@
+@use '../../Foundation/extend';
+
+.p-list__feature{
+    //アニメーションの設定
+    transition: transform 0.5s linear;
+    animation-duration: 1.5s;
+    opacity: 0;
+    &.effect{
+    //アニメーションのextend
+    @extend %fade-in-animation__bttom-to-top;
+    //
+    }
+}

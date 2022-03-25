@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+.p-section__contact--icon{
+    display: inline-block;
+    width:30px;
+    height: 21px;
+    background-image: url(../img/contact__icon.png);
+    margin-right: 8px;
+    vertical-align: text-bottom;
+    @include mixin.mq(pc){
+        vertical-align: baseline;
+    }
+}

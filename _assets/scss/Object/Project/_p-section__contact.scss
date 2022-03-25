@@ -1,0 +1,21 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/extend';
+
+.p-section__contact{
+    background: #F0EAD5;
+    text-align: center;
+    padding:60px 0;
+    //アニメーションの設定
+    transition: transform 0.5s linear;
+    animation-duration: 1.5s;
+    opacity: 0;
+    &.effect{
+    //アニメーションのextend
+    @extend %fade-in-animation__bttom-to-top;
+    //
+    }
+    @include mixin.mq(pc){
+        padding:100px 0;
+        margin-top:90px;
+    }
+}

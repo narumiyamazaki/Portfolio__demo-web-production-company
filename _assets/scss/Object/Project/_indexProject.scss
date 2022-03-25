@@ -1,0 +1,126 @@
+@use './p-main-menu';
+@use './_p-nav--service';
+@use './p-sub-menu--service';
+@use './p-header__logo';
+@use './p-nav__btn';
+@use './p-header--nav-body';
+@use './p-nav--menu--items';
+@use './p-nav--menu';
+@use './p-nav-menu--item';
+@use './p-main';
+
+//サイドバー
+@use './p-background-color';
+@use './p-sidebar__body';
+@use './p-sidebar-menu';
+@use './p-sidebar-menu__concept';
+@use './p-sidebar-menu__business';
+@use './p-sidebar-menu__works';
+@use './p-sidebar-menu__design';
+@use  './p-sidebar-menu__blog';
+@use './p-sidebar-menu__company';
+@use './p-sidebar-menu__contact';
+@use './p-sidebar-menu__contact--icon';
+@use './_p-sidebar__btn';
+
+//header
+@use './p-header__img';
+@use './p-header__img__wrapper';
+@use './p-scroll-area';
+@use './p-scroll__text';
+@use './p-header__text__wrapper';
+@use './p-header__heading2';
+@use './p-header__text';
+@use './p-header__news__wrapper';
+@use './p-header__news__date';
+@use './p-header__news__link';
+@use './p-header-menu';
+@use './p-header__link';
+@use './p-header-menu__item';
+@use './p-header-menu__concept';
+@use './p-header-menu__business';
+@use './p-header-menu__works';
+@use './p-header-menu__design';
+@use './p-header-menu__blog';
+@use './p-header-menu__company';
+@use './p-header-menu__contact';
+@use './p-header-menu__contact--icon';
+
+
+//section__price
+@use './p-section__price';
+@use './p-section__price__heading2';
+@use './p-section__price__heading3';
+@use './p-section__price__text';
+@use './p-section__price__button';
+@use './p-section__img';
+@use './p-section__price__img--pc';
+@use './p-section__affordable';
+@use './p-section__affordable__heading2';
+@use './p-section__affordable__text';
+@use './p-list__feature';
+@use './p-list__feature__wrapper';
+@use './p-list__feature__img1';
+@use './p-list__feature__img2';
+@use './p-list__feature__img3';
+@use './p-list__feature__heading3';
+@use './p-list__feature__number';
+@use './p-list__feature__heading__wrapper';
+@use './p-list__feature__text';
+@use './p-section__price__wrapper';
+
+//works
+@use './p-section__works';
+@use './p-section__works__img';
+@use './p-section__works__heading2';
+@use './p-section__works__text';
+@use './p-section__works__button';
+@use './p-slick';
+
+//design
+@use './p-section__design__wrapper';
+@use './p-section__design__contents';
+@use './p-section__design__contents__image';
+@use './p-section__design__contents__tittle';
+@use './p-section__design__contents__text';
+@use './p-section__design';
+@use './p-section__design__text';
+@use './p-section__design__heading2';
+@use './p-section__design__contents__decription';
+
+//blog
+@use './p-section__blog';
+@use './p-section__blog__heading2';
+@use './p-section__blog__heading__button__wrapper--pc';
+@use './p-section__blog__link__container';
+@use './p-section__blog__link__wrapper';
+@use './p-section__blog__link__date';
+@use './p-section__blog__link__tittle';
+@use './p-section__blog__button';
+@use './p-section__blog__button--pc';
+
+//contact
+@use './p-section__contact';
+@use './p-section__contact__heading2';
+@use './p-section__contact__text';
+@use './p-section__contact__wrapper';
+@use './p-section__contact__tel';
+@use './p-section__contact__wrapper--middle';
+@use './p-section__contact__tel__text';
+@use './p-section__contact__tel__number';
+@use './p-section__contact__button';
+@use './p-section__contact--icon';
+@use './p-section__contact__business-hours__wrapper';
+@use './p-section__contact__business-hours';
+@use './p-section__contact__business-hours__text';
+
+//footer
+@use './p-footer__logo';
+@use './p-footer__infomation';
+@use './p-footer__nav__menu';
+@use './p-footer__copyright';
+
+//slick
+@use './p-slick__container';
+@use './p-slick__wrapper';
+@use './slick';

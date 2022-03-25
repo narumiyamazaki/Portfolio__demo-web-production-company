@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+
+.p-section__blog__heading__button__wrapper--pc{
+    @include mixin.mq(pc){
+        margin-left:calc(70/1140*100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

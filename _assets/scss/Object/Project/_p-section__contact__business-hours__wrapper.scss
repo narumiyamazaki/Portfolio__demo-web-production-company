@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+
+.p-section__contact__business-hours__wrapper{
+    @include mixin.mq(pc){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:24px;
+    }
+}

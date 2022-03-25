@@ -1,0 +1,10 @@
+@use '../../Foundation/extend';
+
+.p-header-menu__item{
+    @extend %p-header-menu__concept;
+}
+
+.p-header-menu__item:hover::after{
+        transform-origin: left top;
+        transform: scale(1, 1);
+}

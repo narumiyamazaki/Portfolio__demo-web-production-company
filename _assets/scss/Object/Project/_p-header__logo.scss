@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-header__logo{
+    font-family: 'Quicksand', sans-serif;
+    font-size:32px;
+    font-weight: bold;
+    height: 65px;
+    margin-left:20px;
+    display: flex;
+    align-items: center;
+}

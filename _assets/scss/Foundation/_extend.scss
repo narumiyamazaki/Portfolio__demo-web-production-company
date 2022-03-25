@@ -1,0 +1,65 @@
+//extend
+%p-price__table__category--subPage {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+%p-sidebar-menu--home{
+    font-size:1.5rem;
+    margin-bottom:1rem;
+}
+
+%p-sidebar-menu__concept{
+    font-family: noto-sans-cjk-jp,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom:55px;
+}
+
+%c-sidebar-menu__concept--sub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+}
+
+%p-header-menu__concept{
+    font-family: noto-sans-cjk-jp,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    margin-right:15px;
+    width:calc(120/840*100%);
+    min-width: 100px;
+    position: relative;
+    z-index:1;
+    &::after{
+        content: '';
+        position: absolute;
+        left: 28px;
+        top: 50px;/*テキストからの距離*/
+        width: 40%;/*初期状態では下線非表示*/
+        height: 1px;/*下線の高さ*/
+        background: #000;/*下線の色*/
+        transform: scale(0, 1);
+        transform-origin: right top;
+        transition: transform .3s;
+        z-index: -1;
+    }
+}
+
+%c-sidebar-menu__concept--sub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+}
+
+%fade-in-animation__bttom-to-top{
+    //opacity: 1;
+    transition: .8s;
+    animation-name: fade-in__bottom-to-top;
+    animation-fill-mode: forwards;
+}

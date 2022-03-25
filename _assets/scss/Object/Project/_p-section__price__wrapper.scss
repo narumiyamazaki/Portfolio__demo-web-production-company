@@ -1,0 +1,7 @@
+@use '../../Foundation/mixin';
+
+.p-section__price__wrapper{
+    @include mixin.mq(pc){
+        width:calc(550/1366*100%);   
+    }
+}

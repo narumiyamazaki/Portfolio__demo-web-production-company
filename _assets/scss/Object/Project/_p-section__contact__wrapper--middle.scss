@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+
+.p-section__contact__wrapper--middle{
+    @include mixin.mq(pc){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:33px;
+    }
+}

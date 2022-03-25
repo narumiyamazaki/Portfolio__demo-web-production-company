@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-section__img{
+    background:url(../img/price__img.png) no-repeat;
+    width: 100%;
+    height:300px;
+    background-size: cover;
+    margin-top:-81px;
+    @include mixin.mq(pc){
+        display: none;
+    }
+}

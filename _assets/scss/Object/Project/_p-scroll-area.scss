@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-scroll-area{
+    display: none;
+    @include mixin.mq(pc){
+        display: block;
+        width: 2px;
+        height: 120px;
+        background-color: #e3e3e3;
+        position: absolute;
+        left:15px;
+        top:6%;
+    }
+}

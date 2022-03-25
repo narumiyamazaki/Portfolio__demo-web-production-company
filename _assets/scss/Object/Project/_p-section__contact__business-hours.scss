@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-section__contact__business-hours{
+    margin-top:24px;
+    font-family: noto-sans-cjk-jp,sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    @include mixin.mq(pc){
+        margin:0;
+    }
+}

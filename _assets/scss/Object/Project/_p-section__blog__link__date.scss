@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-section__blog__link__date{
+    font-family: 'Quicksand', sans-serif;
+    font-size:16px;
+    color:#2D2D2D;
+    line-height: calc(27.2/16);
+    @include mixin.mq(pc){
+        white-space: nowrap;
+    }
+}

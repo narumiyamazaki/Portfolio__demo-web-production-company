@@ -1,0 +1,16 @@
+@use '../../Foundation/mixin';
+
+.p-section__blog__link__wrapper{
+ margin:20px;
+ /*
+    &:not(:first-child){
+    margin-top:20px;
+    }
+    */
+    @include mixin.mq(pc){
+        display: flex;
+        width:calc(650/750*100%);
+        margin-left:calc(50/750*100%);
+        margin-right:calc(50/750*100%);
+    }
+}

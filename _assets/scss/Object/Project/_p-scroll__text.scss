@@ -1,0 +1,22 @@
+.p-scroll__text{
+    text-transform: uppercase;
+    color: #16406b;
+    display: block;
+    margin-left:5px;
+    writing-mode:vertical-lr;
+    &::after{
+        content: '';
+        width: 1px;
+        height: 1px;
+        position: absolute;
+        background-color: #0f0f0f;
+        border-radius: 50%;
+        left:1px;
+        top:0;
+        //アニメーションの設定
+        animation-duration: 2.5s;
+        animation-name: top-to-bottom;
+        animation-iteration-count: infinite;
+        animation-timing-function: (.215,.61,.355,1);
+    }
+}

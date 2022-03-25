@@ -1,0 +1,21 @@
+@use '../../Foundation/mixin';
+
+
+.p-section__blog__link__tittle{
+    display: block;
+    width: calc(255/295*100%);
+    font-family: noto-sans-cjk-jp,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color:#2D2D2D;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: underline;
+    text-decoration-color: #2D2D2D;
+    @include mixin.mq(pc){
+        margin-left:calc(32/650*100%);
+        width:calc(526/650*100%);
+    }
+}

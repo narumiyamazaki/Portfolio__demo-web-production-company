@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+
+.p-sidebar-menu__business{
+    @extend %p-sidebar-menu__concept;
+}

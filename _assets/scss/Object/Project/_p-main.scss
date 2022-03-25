@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-main{
+    position: relative;
+    margin-top:65px;
+    @include mixin.mq(pc){
+        margin-top:80px;
+    }
+    //z-index:-1;
+    &.is-show{
+        display: none;
+    }
+}

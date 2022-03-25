@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-footer__logo{
+    font-family: 'Quicksand', sans-serif;
+    font-size:32px;
+    font-weight: bold;
+    height: 65px;
+    color:#fff;
+    @include mixin.mq(tb){
+        width:100%;
+        font-size:42px;
+    }
+}
